@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target 'LastTrans' do
+
+
+  pod 'Swifternalization',
+   :git => 'https://github.com/tomkowz/Swifternalization.git',
+   :branch => 'master'
+
+ 
+
+end
